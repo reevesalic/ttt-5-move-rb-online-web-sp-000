@@ -7,9 +7,14 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+<<<<<<< HEAD
 
 def input_to_index(user_input)
 
+=======
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def input_to_index(user_input = "X")
+>>>>>>> db2112285a9d54e55dc989c55af32950eaf6ea28
   user_input.to_i - 1
 end
 
